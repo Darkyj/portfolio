@@ -1,0 +1,2 @@
+class SPortfolio < ApplicationRecord
+end
