@@ -41,4 +41,14 @@ class SPortfoliosController < ApplicationController
     def show
         @portfolio_item = SPortfolio.find(params[:id])
     end
+
+    def destroy
+        @portfolio_item = SPortfolio.find(params[:id])
+        @portfolio_item.destroy
+
+        respond_to do |format|
+            format.html { redirect_to s_portfolios_path, notice: 'Portfolio was successfully destroyed.' }
+            format.json { head :no_content }
+          end
+    end
 end
