@@ -6,21 +6,21 @@ let resumeData = {
     "skypeid": "Your skypeid",
     "roleDescription": " Application Developer, DevOps, Solutions Architect, Database Administrator and pretty much anything else that needs to get done. Full stack engineer who appreciates an end-to-end operational understanding of systems. Always interested in how to automate things to require the least human interaction.",
     "socialLinks":[
-        {
-          "name":"facebook",
-          "url":"http://facebook.com/",
-          "className":"fa fa-facebook"
-        },
+        // {
+        //   "name":"facebook",
+        //   "url":"http://facebook.com/",
+        //   "className":"fa fa-facebook"
+        // },
         {
           "name":"twitter",
-          "url":"http://twitter.com",
+          "url":"https://twitter.com/Jrojas125",
           "className":"fa fa-twitter"
         },
-        {
-          "name":"google-plus",
-          "url":"http://googleplus.com/",
-          "className":"fa fa-google-plus"
-        },
+        // {
+        //   "name":"google-plus",
+        //   "url":"http://googleplus.com/",
+        //   "className":"fa fa-google-plus"
+        // },
         {
           "name":"linkedin",
           "url":"https://www.linkedin.com/in/josuerojas/",
@@ -30,12 +30,12 @@ let resumeData = {
           "name":"github",
           "url":"http://github.com/Darkyj",
           "className":"fa fa-github"
-        },
-        {
-          "name":"skype",
-          "url":"http://skype.com",
-          "className":"fa fa-skype"
         }
+        // {
+        //   "name":"skype",
+        //   "url":"http://skype.com",
+        //   "className":"fa fa-skype"
+        // }
       ],
     "aboutme":"A little info about me",
     "address":"Somewhere in this world",
