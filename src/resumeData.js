@@ -2,7 +2,7 @@ let resumeData = {
     "imagebaseurl":"https://techonoeticsclub.github.io/",
     "name": "Josue Rojas",
     "role": "DevOps Engineer",
-    "emailid": "Your emailid",
+    "contactInformation": " Please refer to my email listed in LinkedIn or InMail me!",
     "skypeid": "Your skypeid",
     "roleDescription": " Application Developer, DevOps, Solutions Architect, Database Administrator and pretty much anything else that needs to get done. Full stack engineer who appreciates an end-to-end operational understanding of systems. Always interested in how to automate things to require the least human interaction.",
     "socialLinks":[
@@ -42,27 +42,27 @@ let resumeData = {
     "website":"http://technoetics.in",
     "education":[
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "EducationType":"Software Development Bootcamp",
+        "specialization":"Fullstack Software Engineering",
+        "MonthOfPassing":"November",
+        "YearOfPassing":"2013",
+        "Achievements":""
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "EducationType":"AWS Certification",
+        "specialization":"AWS Certified Solutions Architect - Associate Level",
+        "MonthOfPassing":"May",
+        "YearOfPassing":"2017",
+        "Achievements":""
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Aperia Technologies",
+        // "specialization":"Some specialization",
+        "MonthOfLeaving":"Current",
+        // "YearOfLeaving":"2018",
+        // "Achievements":"Some Achievements"
       },
       {
         "CompanyName":"Some Company",
@@ -108,12 +108,12 @@ let resumeData = {
     ],
     "testimonials":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Josue is an extremely hard working and talented individual. I had the pleasure of working with Josue for the better part of a year and I could not have asked for a better person to work with. Josue was always on top of his work, extremely helpful, reliable, and diligent with his work.",
+        "name":"Nicholas Berry"
       },
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Josue is an extremely passionate person that is an absolute pleasure to work with. He has an incredible attention to detail and doesn't miss a beat. Any team will be lucky to have him.",
+        "name":"Matt Herrick"
       }
     ]
   }
