@@ -6,8 +6,8 @@ import Home from "./components/home/Main";
 const App = () => {
     return (
         <Switch> {/* The Switch decides which component to show based on the current URL.*/}
-            <Route exact path='/blog' component={Blog}></Route>
-            <Route exact path='/' component={Home}></Route>
+            <Route exact path='/' component={Home}/>
+            <Route exact path='/blog' component={Blog}/>
         </Switch>
     );
 }
