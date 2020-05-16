@@ -1,28 +1,15 @@
 import React, { Component } from 'react';
-import Header from './components/header/header';
-import About from './components/about/about';
-import Resume from './components/resume/resume';
-import Portfolio from './components/portfolio/portfolio';
-import Testimonials from  './components/testimonials/testimonials';
-import ContactUs from './components/contactus/contactus';
-import Footer from './components/footer/footer';
-import resumeData from './resumeData';
+import { Switch, Route } from 'react-router-dom';
 import Blog from "./components/blog/Blog";
-class App extends Component {
-  render() {
+import Home from "./components/home/Main";
+
+const App = () => {
     return (
-      <div className="App">
-        <Header resumeData={resumeData}/>
-        <About resumeData={resumeData}/>
-        <Resume resumeData={resumeData}/>
-        {/* <Portfolio resumeData={resumeData}/> */}
-        <Blog resumeData={resumeData}/>
-        <Testimonials resumeData={resumeData}/>
-        <ContactUs resumeData={resumeData}/>
-        <Footer resumeData={resumeData}/>
-      </div>
+        <Switch> {/* The Switch decides which component to show based on the current URL.*/}
+            <Route exact path='/blog' component={Blog}></Route>
+            <Route exact path='/' component={Home}></Route>
+        </Switch>
     );
-  }
 }
 
 export default App;
