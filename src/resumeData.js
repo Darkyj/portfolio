@@ -39,7 +39,7 @@ let resumeData = {
       ],
     "aboutme":"A little info about me",
     "address":"Somewhere in this world",
-    "website":"http://technoetics.in",
+    "website":"",
     "education":[
       {
         "EducationType":"Software Development Bootcamp",
