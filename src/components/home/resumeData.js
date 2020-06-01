@@ -57,20 +57,41 @@ let resumeData = {
       }
     ],
     "work":[
+        {
+            "CompanyName":"Aperia Technologies",
+            "Title":"Software Engineer",
+            "Description": "",
+            "MonthOfStarting":"Jan",
+            "YearOfStarting": "2020",
+            "YearOfLeaving": "Current",
+            "Achievements": "Just being awesome"
+        },
       {
         "CompanyName":"Aperia Technologies",
-        // "specialization":"Some specialization",
-        "MonthOfLeaving":"Current",
-        // "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-        // "YearOfLeaving":"Present",
+        "Title":"DevOps Engineer",
+        "Description": "",
+        "MonthOfStarting":"Nov",
+        "YearOfStarting": "2017",
+        "MonthOfLeaving": "Jan",
+        "YearOfStart": "2020",
+        "Achievements":
+            "- Perform requirements gathering, cost analysis, budgeting, and manage cross company projects\n" + "\n" +
+            "- Architect and develop scalable, high performing and cost-effective solutions to meet requirements of projects\n" +
+            "- Build monitoring tools to report errors and keep stakeholders up to date on status of mission critical applications\n" +
+            "- Implement CI pipelines with GitLab and implement disaster recovery plans\n" +
+            "- Maintain and improve cloud infrastructure on a bi-weekly Agile sprint cadence"
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Aperia Technologies",
+        "Title":"Developer & IT Administrator",
+        "MonthOfStarting": "Apr",
+        "YearOfStarting":"2015",
+        "MonthOfLeaving":"Nov",
+        "YearOfLeaving":"2017",
+        "Achievements":"- Established processes to restructure IT methodologies and overall execution strategies to streamline IT support by automating manual tasks and outsourcing IT desktop support\n" +
+            "- Automated monotonous tasks by using custom Python scripts and off the shelf software (PDQ) to cut repetitive tasks by 50% to reduce user support overhead, software updates, system updates, and data replication\n" +
+            "- Performed expenditure analysis, budgeted funds for IT projects, performed project management, provided technical expertise and recommendations for all things software and hardware\n" +
+            "- Maintain and improve existing internally built software"
       }
     ],
     "skillsDescription":"",
