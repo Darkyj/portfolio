@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
-    return (
+      return (
       <section id="resume">
 
          <div className="row education">
@@ -45,10 +45,13 @@ export default  class Resume extends Component {
                        <div className="twelve columns">
                           <h3>{item.CompanyName}</h3>
                           <p className="info">
-                          {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                          {item.Title}
+                          <br/>
+                          <br/>
+                          <span>&bull;</span> <em className="date">{item.MonthOfStarting} {item.YearOfStarting} </em>
+                              - <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
                           <p>
-                          {item.Achievements}
+                              {item.Achievements}
                           </p>
                        </div>
                     </div>
