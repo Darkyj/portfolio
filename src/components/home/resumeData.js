@@ -136,7 +136,18 @@ let resumeData = {
       {
         "description":"Josue is an extremely passionate person that is an absolute pleasure to work with. He has an incredible attention to detail and doesn't miss a beat. Any team will be lucky to have him.",
         "name":"Matt Herrick"
+      },
+      {
+      "description": "I had the pleasure of working with Josue on a complex, and demanding project where he played a key role as both a business analyst and technical manager. He is highly experienced in managing complex programs with consistent, and dedication as a DevOps engineer.\n" +
+          "\n" +
+          "His functional documentation & system design documentation were impeccable in quality and 'reader-friendly'. Josue was results-driven and completed his assignments on-time and in many cases ahead of schedule. He proved himself to be well respected and highly regarded by all stakeholders. I would highly recommend Josue as he is a huge asset to any team.",
+      "name": "Andy Nguyen"
+      },
+      {
+        "description": "Josue is a wizard who conjures lambda from the ether while his dog farts on him. If amazing systems were made of magical dancing unicorns, any team that had Josue would be awash with magical dancing unicorns.",
+        "name": "Emerson Mills"
       }
+
     ]
   }
   
