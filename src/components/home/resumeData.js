@@ -4,7 +4,10 @@ let resumeData = {
     "role": "DevOps Engineer",
     "contactInformation": " Please refer to my email listed in LinkedIn or InMail me!",
     // "skypeid": "Your skypeid",
-    "roleDescription": " Application Developer, DevOps, Solutions Architect, Database Administrator and pretty much anything else that needs to get done. Full stack engineer who appreciates an end-to-end operational understanding of systems. Always interested in how to automate things to require the least human interaction.",
+    "roleDescription": " Application Developer, DevOps, Solutions Architect, Database Administrator " +
+        "and pretty much anything else that needs to get done. A disciplined full-stack engineer who " +
+        "appreciates an end-to-end operational understanding of systems. Always interested in how to " +
+        "automate things to require the least human interaction.",
     "socialLinks":[
         // {
         //   "name":"facebook",
